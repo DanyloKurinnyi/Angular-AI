@@ -206,7 +206,7 @@
     initial-value: 1%
 }
 
-.left-part {
+.gradient-background {
     --x-0: 90%;
     --y-0: 84%;
     --c-0: hsla(1, 100%, 64%, 1);
@@ -228,25 +228,3 @@
     animation: hero-gradient-animation 10s linear infinite alternate;
     background-blend-mode: normal, normal, normal, normal, normal;
 }
-
-html,body{
-    min-height: 100vh;
-    font-family: 'Open Sans','Univia Pro', sans-serif;
-}
-
-.registration-container {
-    width: 100%;
-}
-
-.registration-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;  
-    min-height: 100vh;
-
-    & .right-part {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-  }
-  
